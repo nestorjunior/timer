@@ -13,10 +13,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: ${props => props.theme['gray-400']};
+    background: ${props => props.theme['gray-900']};
     color: ${props => props.theme['gray-300']};
-    height: 100vh;
-    width: 100vw;
   }
 
   body, input, text-area, button {
